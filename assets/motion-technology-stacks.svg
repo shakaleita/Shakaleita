@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 554" role="img" aria-labelledby="title desc" width="1180" height="554">
+<title id="title">Portfolio / technology patterns</title>
+<desc id="desc">React + FastAPI: 10 projects; Node.js + Express: 4 projects; Python-first APIs &amp; tools: 4 projects; PHP + Laravel: 2 projects; Legacy integration: 1 projects</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2=".8"><stop stop-color="#08172e"/><stop offset="1" stop-color="#0f2b50"/></linearGradient>
+<linearGradient id="fill" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#275da2"/><stop offset=".65" stop-color="#4198dc"/><stop offset="1" stop-color="#72c3f2"/></linearGradient></defs>
+<rect x="2" y="2" width="1176" height="550" rx="24" fill="url(#bg)" stroke="#224975" stroke-width="3"/>
+<rect x="42" y="43" width="6" height="42" rx="3" fill="#63b9ee"/>
+<text x="65" y="73" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#f5f9ff">Portfolio / technology patterns</text>
+<text x="65" y="108" font-family="Arial,sans-serif" font-size="19" fill="#b3cce7">Primary application stack across 21 public projects</text>
+<text x="65" y="177" font-family="Arial,sans-serif" font-size="19" font-weight="600" fill="#ddeafb">React + FastAPI</text>
+<rect x="423" y="155" width="605" height="29" rx="14" fill="#173454"/>
+<rect x="423" y="155" width="605" height="29" rx="14" fill="url(#fill)">
+<animate attributeName="width" from="0" to="605" dur="1.2s" begin="0.40s" fill="freeze" calcMode="spline" keySplines=".2 0 .15 1"/>
+</rect>
+<rect x="423" y="155" width="605" height="29" rx="14" fill="#a8eaff" opacity="0">
+<animate attributeName="opacity" values="0;.15;0" keyTimes="0;.4;1" dur="8s" begin="0.00s" repeatCount="indefinite"/>
+</rect>
+<text x="1100" y="178" text-anchor="end" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#f7fbff">10</text>
+<text x="65" y="251" font-family="Arial,sans-serif" font-size="19" font-weight="600" fill="#ddeafb">Node.js + Express</text>
+<rect x="423" y="229" width="605" height="29" rx="14" fill="#173454"/>
+<rect x="423" y="229" width="242" height="29" rx="14" fill="url(#fill)">
+<animate attributeName="width" from="0" to="242" dur="1.2s" begin="0.64s" fill="freeze" calcMode="spline" keySplines=".2 0 .15 1"/>
+</rect>
+<rect x="423" y="229" width="242" height="29" rx="14" fill="#a8eaff" opacity="0">
+<animate attributeName="opacity" values="0;.15;0" keyTimes="0;.4;1" dur="8s" begin="0.37s" repeatCount="indefinite"/>
+</rect>
+<text x="1100" y="252" text-anchor="end" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#f7fbff">4</text>
+<text x="65" y="325" font-family="Arial,sans-serif" font-size="19" font-weight="600" fill="#ddeafb">Python-first APIs &amp; tools</text>
+<rect x="423" y="303" width="605" height="29" rx="14" fill="#173454"/>
+<rect x="423" y="303" width="242" height="29" rx="14" fill="url(#fill)">
+<animate attributeName="width" from="0" to="242" dur="1.2s" begin="0.88s" fill="freeze" calcMode="spline" keySplines=".2 0 .15 1"/>
+</rect>
+<rect x="423" y="303" width="242" height="29" rx="14" fill="#a8eaff" opacity="0">
+<animate attributeName="opacity" values="0;.15;0" keyTimes="0;.4;1" dur="8s" begin="0.74s" repeatCount="indefinite"/>
+</rect>
+<text x="1100" y="326" text-anchor="end" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#f7fbff">4</text>
+<text x="65" y="399" font-family="Arial,sans-serif" font-size="19" font-weight="600" fill="#ddeafb">PHP + Laravel</text>
+<rect x="423" y="377" width="605" height="29" rx="14" fill="#173454"/>
+<rect x="423" y="377" width="121" height="29" rx="14" fill="url(#fill)">
+<animate attributeName="width" from="0" to="121" dur="1.2s" begin="1.12s" fill="freeze" calcMode="spline" keySplines=".2 0 .15 1"/>
+</rect>
+<rect x="423" y="377" width="121" height="29" rx="14" fill="#a8eaff" opacity="0">
+<animate attributeName="opacity" values="0;.15;0" keyTimes="0;.4;1" dur="8s" begin="1.11s" repeatCount="indefinite"/>
+</rect>
+<text x="1100" y="400" text-anchor="end" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#f7fbff">2</text>
+<text x="65" y="473" font-family="Arial,sans-serif" font-size="19" font-weight="600" fill="#ddeafb">Legacy integration</text>
+<rect x="423" y="451" width="605" height="29" rx="14" fill="#173454"/>
+<rect x="423" y="451" width="61" height="29" rx="14" fill="url(#fill)">
+<animate attributeName="width" from="0" to="61" dur="1.2s" begin="1.36s" fill="freeze" calcMode="spline" keySplines=".2 0 .15 1"/>
+</rect>
+<rect x="423" y="451" width="61" height="29" rx="14" fill="#a8eaff" opacity="0">
+<animate attributeName="opacity" values="0;.15;0" keyTimes="0;.4;1" dur="8s" begin="1.48s" repeatCount="indefinite"/>
+</rect>
+<text x="1100" y="474" text-anchor="end" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#f7fbff">1</text>
+<path d="M65 476H1116" fill="none" stroke="#345878"/>
+<text x="65" y="511" font-family="Arial,sans-serif" font-size="17" fill="#91a9c5">Repository counts · public portfolio · no fabricated performance metrics</text>
+<text x="1116" y="511" text-anchor="end" font-family="Arial,sans-serif" font-size="16" font-weight="600" fill="#65bff8">DS9 / DATA 02</text>
+</svg>

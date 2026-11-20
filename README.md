@@ -3,9 +3,9 @@
 
 <img src="assets/ds9-logo.png" width="176" alt="DS9 original brand logo"/>
 
-# Digital Solution9
+<h1>Digital Solution9</h1>
 
-**Thoughtful software. Practical systems. Better ways of working.**
+<strong>Thoughtful software. Practical systems. Better ways of working.</strong>
 
 Full-stack applications &nbsp;·&nbsp; APIs &nbsp;·&nbsp; Business software
 
@@ -200,7 +200,7 @@ Search, learning, reporting, publishing and helpful utilities.
 </tr>
 </table>
 
-<sub>**About BeautyFort:** historical integration material includes credited third-party work. The legacy stock integration is disabled pending a security rewrite; this repository is shown as an engineering review, not as an original finished product.</sub>
+<sub><strong>About BeautyFort:</strong> historical integration material includes credited third-party work. The legacy stock integration is disabled pending a security rewrite; this repository is shown as an engineering review, not as an original finished product.</sub>
 
 ---
 
@@ -223,7 +223,7 @@ Search, learning, reporting, publishing and helpful utilities.
 
 <img src="assets/ds9-logo.png" width="84" alt="DS9 logo"/>
 
-**Built with care. Improved with every iteration.**
+<strong>Built with care. Improved with every iteration.</strong>
 
 <a href="https://github.com/shakaleita?tab=repositories"><strong>Explore the public repositories</strong></a>
 

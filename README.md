@@ -96,7 +96,7 @@ A selection of six working demonstrations spanning collaboration, commerce, sche
 Data visuals that animate as vectors, with a readable static state for environments that don't play the motion. Counts describe the **21 public code repositories**, not traffic or business performance.
 
 <div align="center">
-<img src="assets/motion-portfolio-areas.svg" width="100%" alt="Animated bar chart of public projects by area: 12 business systems, 6 content and communication, 2 monitoring and automation, 1 legacy review." />
+<img src="assets/motion-project-areas-donut.svg" width="100%" alt="Animated doughnut chart of public projects by area: 12 business systems, 6 content and communication, 2 monitoring and automation, 1 legacy review." />
 
 <br/>
 

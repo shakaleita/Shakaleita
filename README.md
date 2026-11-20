@@ -93,17 +93,32 @@ A selection of six working demonstrations spanning collaboration, commerce, sche
 
 ## Portfolio overview
 
-The charts below classify the **21 public code repositories** by their primary purpose and main application stack. These are repository counts, not invented traffic, user, revenue or performance statistics.
+The following charts summarise the **21 public code repositories**, grouped by their primary purpose and documented application stack. These counts describe the portfolio; they are not traffic, revenue, user or performance metrics.
 
-<div align="center">
-<img src="assets/portfolio-areas.svg" width="98%" alt="Portfolio areas: 12 business systems; 5 content and communication; 3 monitoring, analytics and automation; 1 legacy review" />
+### Projects by area
 
-<br/>
+```mermaid
+pie showData
+    title Public projects by area (21)
+    "Business systems and operations" : 12
+    "Content and communication" : 5
+    "Monitoring, analytics and automation" : 3
+    "Legacy engineering review" : 1
+```
 
-<img src="assets/portfolio-stacks.svg" width="98%" alt="Main technology patterns: 10 React with FastAPI; 4 Node.js with Express; 4 Python-first demos; 2 Laravel; 1 legacy integration" />
-</div>
+### Primary technology stacks
 
-<sub>Classification is based on the documented focus and primary stack of each public repository. The categories are mutually exclusive for these charts; the numbers are not a measure of popularity or production readiness.</sub>
+```mermaid
+pie showData
+    title Primary stack per project (21)
+    "React and FastAPI" : 10
+    "Node.js and Express" : 4
+    "Python-first APIs and tools" : 4
+    "PHP and Laravel" : 2
+    "Legacy integration" : 1
+```
+
+<sub>Each repository is counted once in each chart. The classifications are based on the documented public projects and do not imply production readiness.</sub>
 
 ## Project directory
 

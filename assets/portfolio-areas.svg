@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="440" viewBox="0 0 1024 440" role="img" aria-label="Project areas">
 <title>Project areas</title>
-<desc>Business systems: 12 repositories; Content & communication: 5 repositories; Monitoring, analytics & automation: 3 repositories; Legacy review: 1 repositories.</desc>
+<desc>Business systems: 12 repositories; Content &amp; communication: 5 repositories; Monitoring, analytics &amp; automation: 3 repositories; Legacy review: 1 repositories.</desc>
 <rect x="2" y="2" width="1020" height="436" rx="26" fill="#f9fbff" stroke="#dee7f4" stroke-width="3"/>
 <rect x="36" y="36" width="7" height="47" rx="3" fill="#2f78c6"/>
 <text x="64" y="63" fill="#102647" font-family="Arial,sans-serif" font-size="31" font-weight="700">Project areas</text>
@@ -9,11 +9,11 @@
 <rect x="365" y="138" width="550" height="26" rx="13" fill="#e4ebf5"/>
 <rect x="365" y="138" width="550" height="26" rx="13" fill="#215ca9"/>
 <text x="962" y="158" text-anchor="end" fill="#1d3556" font-family="Arial,sans-serif" font-weight="700" font-size="23">12</text>
-<text x="64" y="220" fill="#1d3556" font-family="Arial,sans-serif" font-size="20" font-weight="600">Content & communication</text>
+<text x="64" y="220" fill="#1d3556" font-family="Arial,sans-serif" font-size="20" font-weight="600">Content &amp; communication</text>
 <rect x="365" y="201" width="550" height="26" rx="13" fill="#e4ebf5"/>
 <rect x="365" y="201" width="229" height="26" rx="13" fill="#3284cf"/>
 <text x="962" y="221" text-anchor="end" fill="#1d3556" font-family="Arial,sans-serif" font-weight="700" font-size="23">5</text>
-<text x="64" y="283" fill="#1d3556" font-family="Arial,sans-serif" font-size="20" font-weight="600">Monitoring, analytics & automation</text>
+<text x="64" y="283" fill="#1d3556" font-family="Arial,sans-serif" font-size="20" font-weight="600">Monitoring, analytics &amp; automation</text>
 <rect x="365" y="264" width="550" height="26" rx="13" fill="#e4ebf5"/>
 <rect x="365" y="264" width="138" height="26" rx="13" fill="#6a78c5"/>
 <text x="962" y="284" text-anchor="end" fill="#1d3556" font-family="Arial,sans-serif" font-weight="700" font-size="23">3</text>

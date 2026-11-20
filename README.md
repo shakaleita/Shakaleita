@@ -1,13 +1,19 @@
-<!-- DS9 · Digital Solution9 / official GitHub profile -->
+<!-- DS9 | Digital Solution9 | GitHub portfolio -->
 <div align="center">
 
-<img src="assets/ds9-header.svg" width="100%" alt="DS9 / Digital Solution9 — Software, Systems, Product" />
+<img src="assets/ds9-header.svg" width="100%" alt="Digital Solution9 · Software, Systems, Product" />
 
 <br />
 
-**Full-stack engineering portfolio** &nbsp;·&nbsp; Business applications &nbsp;·&nbsp; Product prototypes
+<strong>Engineering portfolio · Full-stack applications · APIs · Product prototypes</strong>
 
-<a href="#featured-projects"><strong>Featured work</strong></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="#project-directory"><strong>All projects</strong></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="#technology"><strong>Technology</strong></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://github.com/shakaleita?tab=repositories"><strong>GitHub repositories</strong></a>
+<br /><br />
+
+<a href="#featured-projects"><strong>Featured projects</strong></a> &nbsp;·&nbsp;
+<a href="#portfolio-overview"><strong>Portfolio overview</strong></a> &nbsp;·&nbsp;
+<a href="#project-directory"><strong>Project directory</strong></a> &nbsp;·&nbsp;
+<a href="#architecture--workflows"><strong>Architecture &amp; workflows</strong></a> &nbsp;·&nbsp;
+<a href="#technology"><strong>Technology</strong></a>
 
 </div>
 
@@ -15,28 +21,30 @@
 
 <table>
 <tr>
-<td width="24%" align="center" valign="middle">
-<img src="assets/ds9-logo.png" width="136" alt="Original DS9 logo"/>
+<td width="22%" align="center" valign="middle">
+<img src="assets/ds9-logo.png" width="126" alt="DS9 logo" />
 </td>
-<td width="76%" valign="middle">
-
-### Software that makes sense.
-
-At **Digital Solution9**, I explore the space between a good idea and working software—turning real operational problems into clear interfaces, reliable APIs and focused applications.
-
-The work spans commerce, scheduling, sales, business tools and knowledge systems. I aim for thoughtful design, understandable architecture and honest engineering.
-
+<td width="78%" valign="middle">
+<h3>Software built around real workflows.</h3>
+<p>A portfolio of practical software projects spanning operational systems, web applications, automation, content management and analytics. The emphasis is on useful features, clear architecture, maintainable code and thoughtful iteration.</p>
+<p>Explore working prototypes, implementation details, API documentation and engineering decisions in the linked repositories.</p>
 </td>
 </tr>
 </table>
 
-> **21 public projects. Different problems, one approach:** build the useful part first, test what matters, and make each iteration stronger.
+<table>
+<tr>
+<td width="33%" align="center"><strong>21</strong><br/><sub>PUBLIC CODE PROJECTS</sub></td>
+<td width="34%" align="center"><strong>4</strong><br/><sub>PORTFOLIO AREAS</sub></td>
+<td width="33%" align="center"><strong>6</strong><br/><sub>FEATURED BUILDS</sub></td>
+</tr>
+</table>
 
-<sub>These are portfolio prototypes, local demonstrations and engineering case studies. They should not be treated as publicly deployed or production-hardened services unless a repository states otherwise.</sub>
+<sub>Portfolio scope: locally runnable MVPs, technical demonstrations and case studies. These are not presented as production-ready, audited or publicly deployed applications.</sub>
 
 ## Featured projects
 
-Six projects that reflect the kind of systems I enjoy designing, building, testing and improving.
+A selection of six working demonstrations spanning collaboration, commerce, scheduling, sales, monitoring and automation.
 
 <table>
 <tr>
@@ -83,13 +91,27 @@ Six projects that reflect the kind of systems I enjoy designing, building, testi
 </tr>
 </table>
 
+## Portfolio overview
+
+The charts below classify the **21 public code repositories** by their primary purpose and main application stack. These are repository counts, not invented traffic, user, revenue or performance statistics.
+
+<div align="center">
+<img src="assets/portfolio-areas.svg" width="98%" alt="Portfolio areas: 12 business systems; 5 content and communication; 3 monitoring, analytics and automation; 1 legacy review" />
+
+<br/>
+
+<img src="assets/portfolio-stacks.svg" width="98%" alt="Main technology patterns: 10 React with FastAPI; 4 Node.js with Express; 4 Python-first demos; 2 Laravel; 1 legacy integration" />
+</div>
+
+<sub>Classification is based on the documented focus and primary stack of each public repository. The categories are mutually exclusive for these charts; the numbers are not a measure of popularity or production readiness.</sub>
+
 ## Project directory
 
-<sub>The full public portfolio. Each card links to its source, documentation and setup instructions.</sub>
+<sub>The remaining 15 public code repositories are grouped here. Together with the six featured projects, the portfolio covers all 21 public projects.</sub>
 
 ### 01 — Business systems & operations
 
-Practical tools for businesses, teams and everyday operations.
+Software for day-to-day operations, administrative work and business workflows.
 
 <table>
 <tr>
@@ -215,44 +237,93 @@ Products built around better access to information and smoother digital experien
 
 <sub><strong>About BeautyFort:</strong> historical integration material includes credited third-party work. The legacy stock integration is disabled pending a security rewrite; this repository is shown as an engineering review, not as an original finished product.</sub>
 
+## Architecture & workflows
+
+These diagrams document representative engineering patterns and real use cases from the portfolio. They are explanatory diagrams, not a claim that every repository uses the same design.
+
+### Representative application architecture
+
+Many of the full-stack prototypes follow a simple separation between the interface, API, application rules and persistence.
+
+```mermaid
+flowchart LR
+    UI["Web interface<br/>React or server-rendered UI"]
+    API["HTTP / REST API"]
+    LOGIC["Input validation<br/>Domain workflows"]
+    DB[("SQLite or MySQL")]
+    TEST["Integration tests"]
+
+    UI -->|"Requests"| API
+    API --> LOGIC
+    LOGIC -->|"Read / write"| DB
+    TEST -.->|"Exercise routes"| API
+```
+
+### Mercato — transactional checkout
+
+A documented workflow in [Mercato](https://github.com/shakaleita/Mercato-E-Commerce-Platform) is stock-aware order creation. Checkout must reject insufficient stock and preserve consistent inventory.
+
+```mermaid
+flowchart TD
+    A["Checkout request"] --> B["Validate products and quantities"]
+    B --> C{"Sufficient stock?"}
+    C -->|"Yes"| D["Atomic order and stock update"]
+    C -->|"No"| E["Return stock validation error"]
+    D --> F["Order history and updated inventory"]
+```
+
+### ClinicFlow — appointment management
+
+[ClinicFlow](https://github.com/shakaleita/ClinicFlow-Medical-Booking-System) covers availability checks, conflict-safe booking and rescheduling.
+
+```mermaid
+flowchart TD
+    A["Appointment or reschedule request"] --> B["Validate details and time"]
+    B --> C{"Slot available?"}
+    C -->|"Yes"| D["Store appointment change"]
+    C -->|"Conflict"| E["Return unavailable-slot response"]
+    D --> F["Updated schedule and event history"]
+```
+
+<sub>Diagrams render natively in GitHub. They summarise key flows rather than every implementation branch or production control.</sub>
+
 ---
 
 ## Technology
 
-I use different tools depending on the problem. These are some of the technologies used across the portfolio.
-
 <table>
-<tr><td><strong>Frontend & interaction</strong></td><td>React · Vite · JavaScript · HTML · CSS</td></tr>
-<tr><td><strong>APIs & backend</strong></td><td>Python · FastAPI · Flask · Node.js · Express · PHP · Laravel</td></tr>
-<tr><td><strong>Data & workflows</strong></td><td>SQLite · MySQL · REST APIs · transactional operations</td></tr>
-<tr><td><strong>Delivery & quality</strong></td><td>pytest · integration testing · Docker · GitHub Actions</td></tr>
+<tr><td><strong>Interfaces</strong></td><td>React · Vite · JavaScript · HTML · CSS</td></tr>
+<tr><td><strong>Services &amp; APIs</strong></td><td>Python · FastAPI · Flask · Node.js · Express · PHP · Laravel</td></tr>
+<tr><td><strong>Persistence</strong></td><td>SQLite · MySQL · validation and transaction handling</td></tr>
+<tr><td><strong>Quality &amp; tooling</strong></td><td>pytest · integration testing · Docker · GitHub Actions</td></tr>
 </table>
 
-### The way I build
+### Engineering priorities
 
-**Useful first.** Design for the workflow, not for a screenshot.
+**Clarity:** understandable code, accessible interfaces and explicit workflows.
 
-**Deliberate by default.** Clear names, simple data models, thoughtful error handling and tests.
+**Correctness:** validation, predictable state transitions and tests against important behaviour.
 
-**Room to evolve.** A focused MVP should show what works, what doesn't, and what comes next.
+**Practicality:** focused scope, reproducible local demos and documented limitations.
 
-<br />
+**Iteration:** prototypes evolve through review, better modelling and targeted improvements.
+
+---
 
 <div align="center">
 
-<a href="https://github.com/shakaleita?tab=repositories"><strong>Explore all public repositories</strong></a> &nbsp; · &nbsp; <a href="#featured-projects">Back to featured work</a>
+<a href="https://github.com/shakaleita?tab=repositories"><strong>Browse all public repositories</strong></a> &nbsp;·&nbsp; <a href="#featured-projects">Return to featured projects</a>
 
-<br /><br />
+<br/><br/>
 
-<img src="assets/ds9-footer.svg" width="100%" alt="DS9 — Built with care. Designed for real workflows." />
+<img src="assets/ds9-footer.svg" width="100%" alt="Digital Solution9 · Built with care, designed for real workflows" />
 
-<br />
+<br/>
 
-<sub>Digital Solution9 © 2026 · A growing engineering portfolio</sub>
+<sub>Digital Solution9 · Software / Systems / Product</sub>
 
-<br /><br />
+<br/><br/>
 
-<sub>Also building the PrimeEcho brand</sub><br />
-<img src="assets/primeecho-logo.png" width="43" alt="PrimeEcho logo"/>
+<img src="assets/primeecho-logo.png" width="40" alt="PrimeEcho logo" />
 
 </div>

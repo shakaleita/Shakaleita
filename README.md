@@ -1,29 +1,42 @@
-<!-- DS9 / Digital Solution9 — GitHub profile -->
+<!-- DS9 · Digital Solution9 / official GitHub profile -->
 <div align="center">
 
-<img src="assets/ds9-logo.png" width="176" alt="DS9 original brand logo"/>
+<img src="assets/ds9-header.svg" width="100%" alt="DS9 / Digital Solution9 — Software, Systems, Product" />
 
-<h1>Digital Solution9</h1>
+<br />
 
-<strong>Thoughtful software. Practical systems. Better ways of working.</strong>
+**Full-stack engineering portfolio** &nbsp;·&nbsp; Business applications &nbsp;·&nbsp; Product prototypes
 
-Full-stack applications &nbsp;·&nbsp; APIs &nbsp;·&nbsp; Business software
-
-<a href="#selected-work">Selected work</a> &nbsp;·&nbsp; <a href="#all-projects">All projects</a> &nbsp;·&nbsp; <a href="https://github.com/shakaleita?tab=repositories">Repositories</a>
+<a href="#featured-projects"><strong>Featured work</strong></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="#project-directory"><strong>All projects</strong></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="#technology"><strong>Technology</strong></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://github.com/shakaleita?tab=repositories"><strong>GitHub repositories</strong></a>
 
 </div>
 
 ---
 
-### Hello, I'm building DS9.
+<table>
+<tr>
+<td width="24%" align="center" valign="middle">
+<img src="assets/ds9-logo.png" width="136" alt="Original DS9 logo"/>
+</td>
+<td width="76%" valign="middle">
 
-I work on the kind of software people actually use: making appointments easier to manage, keeping track of stock and orders, moving team work forward, or turning scattered information into something useful.
+### Software that makes sense.
 
-This is a collection of **working portfolio prototypes, local demos, and engineering case studies**—not a claim that each project is a production-ready product. I enjoy the process of getting a useful first version working, understanding its weaknesses, and improving it.
+At **Digital Solution9**, I explore the space between a good idea and working software—turning real operational problems into clear interfaces, reliable APIs and focused applications.
 
-## Selected work
+The work spans commerce, scheduling, sales, business tools and knowledge systems. I aim for thoughtful design, understandable architecture and honest engineering.
 
-A closer look at six builds spanning collaboration, commerce, scheduling, sales, monitoring and automation.
+</td>
+</tr>
+</table>
+
+> **21 public projects. Different problems, one approach:** build the useful part first, test what matters, and make each iteration stronger.
+
+<sub>These are portfolio prototypes, local demonstrations and engineering case studies. They should not be treated as publicly deployed or production-hardened services unless a repository states otherwise.</sub>
+
+## Featured projects
+
+Six projects that reflect the kind of systems I enjoy designing, building, testing and improving.
 
 <table>
 <tr>
@@ -70,13 +83,13 @@ A closer look at six builds spanning collaboration, commerce, scheduling, sales,
 </tr>
 </table>
 
-## All projects
+## Project directory
 
-<sub>Every public code repository is represented below. The profile repository itself is the home of this page.</sub>
+<sub>The full public portfolio. Each card links to its source, documentation and setup instructions.</sub>
 
-### 01 / Business systems & operations
+### 01 — Business systems & operations
 
-From everyday team workflows to commerce, invoicing and stock control.
+Practical tools for businesses, teams and everyday operations.
 
 <table>
 <tr>
@@ -137,9 +150,9 @@ From everyday team workflows to commerce, invoicing and stock control.
 </tr>
 </table>
 
-### 02 / Content, communication & tools
+### 02 — Content, communication & tools
 
-Search, learning, reporting, publishing and helpful utilities.
+Products built around better access to information and smoother digital experiences.
 
 <table>
 <tr>
@@ -186,7 +199,7 @@ Search, learning, reporting, publishing and helpful utilities.
 </tr>
 </table>
 
-### 03 / Engineering archive
+### 03 — Engineering archive
 
 <table>
 <tr>
@@ -204,36 +217,42 @@ Search, learning, reporting, publishing and helpful utilities.
 
 ---
 
-## The tools behind the work
+## Technology
 
-| Area | Technologies |
-| :-- | :-- |
-| **Interfaces** | React, Vite, JavaScript, HTML & CSS |
-| **Backend** | Python, FastAPI, Flask, Node.js, Express, PHP, Laravel |
-| **Data** | SQLite, MySQL, REST APIs and transactional workflows |
-| **Engineering** | pytest, integration tests, Docker, GitHub Actions |
+I use different tools depending on the problem. These are some of the technologies used across the portfolio.
 
-### How I work
+<table>
+<tr><td><strong>Frontend & interaction</strong></td><td>React · Vite · JavaScript · HTML · CSS</td></tr>
+<tr><td><strong>APIs & backend</strong></td><td>Python · FastAPI · Flask · Node.js · Express · PHP · Laravel</td></tr>
+<tr><td><strong>Data & workflows</strong></td><td>SQLite · MySQL · REST APIs · transactional operations</td></tr>
+<tr><td><strong>Delivery & quality</strong></td><td>pytest · integration testing · Docker · GitHub Actions</td></tr>
+</table>
 
-**Start with the problem.** Keep the interface clear. Build the core workflow. Test behaviour rather than appearances. Document what works—and what still needs work.
+### The way I build
 
----
+**Useful first.** Design for the workflow, not for a screenshot.
+
+**Deliberate by default.** Clear names, simple data models, thoughtful error handling and tests.
+
+**Room to evolve.** A focused MVP should show what works, what doesn't, and what comes next.
+
+<br />
 
 <div align="center">
 
-<img src="assets/ds9-logo.png" width="84" alt="DS9 logo"/>
+<a href="https://github.com/shakaleita?tab=repositories"><strong>Explore all public repositories</strong></a> &nbsp; · &nbsp; <a href="#featured-projects">Back to featured work</a>
 
-<strong>Built with care. Improved with every iteration.</strong>
+<br /><br />
 
-<a href="https://github.com/shakaleita?tab=repositories"><strong>Explore the public repositories</strong></a>
+<img src="assets/ds9-footer.svg" width="100%" alt="DS9 — Built with care. Designed for real workflows." />
 
-<br/>
+<br />
 
-<sub>Digital Solution9 · Software / Systems / Product</sub>
+<sub>Digital Solution9 © 2026 · A growing engineering portfolio</sub>
 
-<br/><br/>
+<br /><br />
 
-<sub>Other brand: PrimeEcho</sub><br/>
-<img src="assets/primeecho-logo.png" width="48" alt="PrimeEcho brand logo"/>
+<sub>Also building the PrimeEcho brand</sub><br />
+<img src="assets/primeecho-logo.png" width="43" alt="PrimeEcho logo"/>
 
 </div>

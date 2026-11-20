@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 324" width="1180" height="324" role="img" aria-labelledby="title desc">
+<title id="title">Mercato / checkout lifecycle</title><desc id="desc">A documented stock-aware order flow: Checkout to Validation to Transaction to Order history.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08172e"/><stop offset="1" stop-color="#0e284b"/></linearGradient><linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#102c52"/><stop offset="1" stop-color="#0d2343"/></linearGradient></defs>
+<rect x="2" y="2" width="1176" height="320" rx="21" fill="url(#bg)" stroke="#24517e" stroke-width="3"/>
+<rect x="34" y="28" width="6" height="38" rx="3" fill="#61b9ed"/>
+<text x="57" y="55" font-family="Arial,sans-serif" font-weight="700" font-size="28" fill="#f5f9ff">Mercato / checkout lifecycle</text>
+<text x="58" y="79" font-family="Arial,sans-serif" font-size="16" fill="#adcae7">A documented stock-aware order flow</text>
+<rect x="39" y="105" width="239" height="99" rx="16" fill="url(#card)" stroke="#365d89" stroke-width="2">
+ <animate attributeName="stroke" values="#365d89;#5db7ec;#365d89" keyTimes="0;.34;1" dur="9s" begin="0s" repeatCount="indefinite"/>
+ </rect>
+ <rect x="53" y="122" width="30" height="30" rx="8" fill="#2261a4"/>
+ <text x="68" y="143" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#fff">1</text>
+ <text x="93" y="146" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#f2f8ff">Checkout</text>
+ <text x="56" y="182" font-family="Arial,sans-serif" font-size="15" fill="#b9cfeb">Request and cart quantities</text>
+ <path d="M282 155H317" fill="none" stroke="#68b6ee" stroke-width="3" stroke-linecap="round"/>
+ <path d="M310 148L318 155L310 162" stroke="#68b6ee" stroke-width="2.8" fill="none"/>
+ <circle cx="283" cy="155" r="4" fill="#f2fbff" opacity="0">
+ <animate attributeName="cx" values="283;315;315" keyTimes="0;.5;1" dur="6s" begin="0.00s" repeatCount="indefinite"/>
+ <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.2;.52;1" dur="6s" begin="0.00s" repeatCount="indefinite"/>
+ </circle><rect x="326" y="105" width="239" height="99" rx="16" fill="url(#card)" stroke="#365d89" stroke-width="2">
+ <animate attributeName="stroke" values="#365d89;#5db7ec;#365d89" keyTimes="0;.34;1" dur="9s" begin="0.6s" repeatCount="indefinite"/>
+ </rect>
+ <rect x="340" y="122" width="30" height="30" rx="8" fill="#2261a4"/>
+ <text x="355" y="143" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#fff">2</text>
+ <text x="380" y="146" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#f2f8ff">Validation</text>
+ <text x="343" y="182" font-family="Arial,sans-serif" font-size="15" fill="#b9cfeb">Products and available stock</text>
+ <path d="M569 155H604" fill="none" stroke="#68b6ee" stroke-width="3" stroke-linecap="round"/>
+ <path d="M597 148L605 155L597 162" stroke="#68b6ee" stroke-width="2.8" fill="none"/>
+ <circle cx="570" cy="155" r="4" fill="#f2fbff" opacity="0">
+ <animate attributeName="cx" values="570;602;602" keyTimes="0;.5;1" dur="6s" begin="0.73s" repeatCount="indefinite"/>
+ <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.2;.52;1" dur="6s" begin="0.73s" repeatCount="indefinite"/>
+ </circle><rect x="613" y="105" width="239" height="99" rx="16" fill="url(#card)" stroke="#365d89" stroke-width="2">
+ <animate attributeName="stroke" values="#365d89;#5db7ec;#365d89" keyTimes="0;.34;1" dur="9s" begin="1.2s" repeatCount="indefinite"/>
+ </rect>
+ <rect x="627" y="122" width="30" height="30" rx="8" fill="#2261a4"/>
+ <text x="642" y="143" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#fff">3</text>
+ <text x="667" y="146" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#f2f8ff">Transaction</text>
+ <text x="630" y="182" font-family="Arial,sans-serif" font-size="15" fill="#b9cfeb">Order and stock update</text>
+ <path d="M856 155H891" fill="none" stroke="#68b6ee" stroke-width="3" stroke-linecap="round"/>
+ <path d="M884 148L892 155L884 162" stroke="#68b6ee" stroke-width="2.8" fill="none"/>
+ <circle cx="857" cy="155" r="4" fill="#f2fbff" opacity="0">
+ <animate attributeName="cx" values="857;889;889" keyTimes="0;.5;1" dur="6s" begin="1.46s" repeatCount="indefinite"/>
+ <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.2;.52;1" dur="6s" begin="1.46s" repeatCount="indefinite"/>
+ </circle><rect x="900" y="105" width="239" height="99" rx="16" fill="url(#card)" stroke="#365d89" stroke-width="2">
+ <animate attributeName="stroke" values="#365d89;#5db7ec;#365d89" keyTimes="0;.34;1" dur="9s" begin="1.7999999999999998s" repeatCount="indefinite"/>
+ </rect>
+ <rect x="914" y="122" width="30" height="30" rx="8" fill="#2261a4"/>
+ <text x="929" y="143" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#fff">4</text>
+ <text x="954" y="146" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#f2f8ff">Order history</text>
+ <text x="917" y="182" font-family="Arial,sans-serif" font-size="15" fill="#b9cfeb">Durable state for review</text>
+ <path d="M39 256H1141" stroke="#2b5278" stroke-width="1.5"/>
+<text x="40" y="282" font-family="Arial,sans-serif" font-size="17" fill="#b5cae2">Insufficient stock returns an error; retries and cancellations have documented safeguards.</text>
+<text x="1140" y="306" font-family="Arial,sans-serif" font-size="15" text-anchor="end" fill="#64bcf4">DS9 / FLOW 02</text>
+</svg>

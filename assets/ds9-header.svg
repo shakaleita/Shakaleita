@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 455" width="1440" height="455" role="img" aria-label="DS9 Digital Solution9 — Software, Systems, Product">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#030c1c"/><stop offset=".56" stop-color="#071833"/><stop offset="1" stop-color="#09274e"/></linearGradient>
+  <linearGradient id="wave" x1="0" y1="0" x2="1" y2=".4"><stop stop-color="#0c2855"/><stop offset=".48" stop-color="#144b98"/><stop offset=".72" stop-color="#1963c8"/><stop offset="1" stop-color="#0c2b60"/></linearGradient>
+  <linearGradient id="type" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#d3e5ff"/></linearGradient>
+  <linearGradient id="num" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#80c0ff"/><stop offset="1" stop-color="#2774ce"/></linearGradient>
+  <radialGradient id="glow" cx=".82" cy="1" r=".55"><stop stop-color="#1a72cf" stop-opacity=".44"/><stop offset="1" stop-color="#1a72cf" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1440" height="455" rx="28" fill="url(#bg)"/>
+<rect width="1440" height="455" rx="28" fill="url(#glow)"/>
+<path d="M0 158C164 37 233 16 396-22L0-22Z" fill="#123a70" opacity=".47"/>
+<path d="M0 128C198 0 291 8 461-29" fill="none" stroke="#317ddd" stroke-opacity=".55" stroke-width="2"/>
+<path d="M0 370C242 338 330 448 608 442C915 439 1104 333 1440 245V455H0Z" fill="url(#wave)" opacity=".55"/>
+<path d="M0 403C304 342 425 488 703 443C998 394 1218 366 1440 287" fill="none" stroke="#52a6f7" stroke-opacity=".9" stroke-width="2.5"/>
+<path d="M0 434C302 399 470 492 756 455C1024 422 1289 359 1440 321" fill="none" stroke="#143c7a" stroke-opacity=".8" stroke-width="24"/>
+<path d="M0 0H1440" stroke="#173968" opacity=".6"/>
+<g font-family="Arial, Helvetica, sans-serif">
+  <text x="96" y="248" fill="url(#type)" font-size="158" font-weight="800" letter-spacing="-13">DS<tspan fill="url(#num)">9</tspan></text>
+  <path d="M432 130V295" stroke="#88baff" stroke-opacity=".7" stroke-width="2"/>
+  <text x="480" y="209" font-size="76" font-weight="700" letter-spacing="-3.2" fill="#f6f9ff">Digital Solution9</text>
+  <text x="484" y="264" font-size="23" letter-spacing="6.8" fill="#b5cbed">SOFTWARE  •  SYSTEMS  •  PRODUCT</text>
+  <text x="98" y="343" font-size="16" letter-spacing="4.5" fill="#a7bdda">ENGINEERING PORTFOLIO</text>
+</g>
+<path d="M98 357H350" stroke="#5aa9ff" stroke-width="3" opacity=".9"/>
+</svg>

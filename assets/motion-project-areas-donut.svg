@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 500" width="1180" height="500" role="img" aria-labelledby="t d">
+<title id="t">Animated public-project doughnut chart</title>
+<desc id="d">21 public code repositories: 12 business systems, 6 content and communication, 2 monitoring and automation, and 1 legacy engineering review.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08172e"/><stop offset="1" stop-color="#0e2a50"/></linearGradient></defs>
+<rect x="2" y="2" width="1176" height="496" rx="23" fill="url(#bg)" stroke="#254c78" stroke-width="3"/>
+<rect x="44" y="38" width="6" height="40" rx="3" fill="#6dbdeb"/>
+<text x="69" y="70" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="#f4f9ff">Portfolio / project areas</text>
+<text x="69" y="107" font-family="Arial,sans-serif" font-size="19" fill="#b8cce6">21 public projects · one primary domain per repository</text>
+<circle cx="275" cy="296" r="126" fill="none" stroke="#1b3a5e" stroke-width="41"/>
+<circle cx="275" cy="296" r="126" fill="none" stroke="#4da9e9" stroke-width="41" transform="rotate(-90 275 296)" stroke-dasharray="448.389 343.292" stroke-dashoffset="0.000">
+ <animate attributeName="stroke-dasharray" values="0 791.681;0 791.681;448.389 343.292" keyTimes="0;0.090;1" begin="0s" dur="3.2s" fill="freeze" />
+ </circle><circle cx="275" cy="296" r="126" fill="none" stroke="#857df5" stroke-width="41" transform="rotate(-90 275 296)" stroke-dasharray="222.195 569.487" stroke-dashoffset="-452.389">
+ <animate attributeName="stroke-dasharray" values="0 791.681;0 791.681;222.195 569.487" keyTimes="0;0.170;1" begin="0s" dur="3.2s" fill="freeze" />
+ </circle><circle cx="275" cy="296" r="126" fill="none" stroke="#50cbbf" stroke-width="41" transform="rotate(-90 275 296)" stroke-dasharray="71.398 720.283" stroke-dashoffset="-678.584">
+ <animate attributeName="stroke-dasharray" values="0 791.681;0 791.681;71.398 720.283" keyTimes="0;0.250;1" begin="0s" dur="3.2s" fill="freeze" />
+ </circle><circle cx="275" cy="296" r="126" fill="none" stroke="#b6c5d8" stroke-width="41" transform="rotate(-90 275 296)" stroke-dasharray="33.699 757.982" stroke-dashoffset="-753.982">
+ <animate attributeName="stroke-dasharray" values="0 791.681;0 791.681;33.699 757.982" keyTimes="0;0.330;1" begin="0s" dur="3.2s" fill="freeze" />
+ </circle><circle cx="275" cy="296" r="87" fill="#081a34" stroke="#31517a" stroke-width="1"/>
+<text x="275" y="295" font-family="Arial,sans-serif" font-size="75" font-weight="700" text-anchor="middle" fill="#f4f9ff">21</text>
+<text x="275" y="334" font-family="Arial,sans-serif" font-size="18" text-anchor="middle" fill="#9fb8d4" letter-spacing="2">PROJECTS</text><rect x="528" y="165" width="20" height="20" rx="6" fill="#4da9e9"/>
+<text x="567" y="184" font-size="23" font-weight="600" font-family="Arial,sans-serif" fill="#e5f1ff">Business systems</text>
+<text x="1081" y="184" text-anchor="end" font-size="28" font-weight="700" font-family="Arial,sans-serif" fill="#f6faff">12</text>
+<path d="M567 201H1086" stroke="#2e4d70" stroke-width="1"/><rect x="528" y="228" width="20" height="20" rx="6" fill="#857df5"/>
+<text x="567" y="247" font-size="23" font-weight="600" font-family="Arial,sans-serif" fill="#e5f1ff">Content &amp; communication</text>
+<text x="1081" y="247" text-anchor="end" font-size="28" font-weight="700" font-family="Arial,sans-serif" fill="#f6faff">6</text>
+<path d="M567 264H1086" stroke="#2e4d70" stroke-width="1"/><rect x="528" y="291" width="20" height="20" rx="6" fill="#50cbbf"/>
+<text x="567" y="310" font-size="23" font-weight="600" font-family="Arial,sans-serif" fill="#e5f1ff">Monitoring &amp; automation</text>
+<text x="1081" y="310" text-anchor="end" font-size="28" font-weight="700" font-family="Arial,sans-serif" fill="#f6faff">2</text>
+<path d="M567 327H1086" stroke="#2e4d70" stroke-width="1"/><rect x="528" y="354" width="20" height="20" rx="6" fill="#b6c5d8"/>
+<text x="567" y="373" font-size="23" font-weight="600" font-family="Arial,sans-serif" fill="#e5f1ff">Legacy engineering review</text>
+<text x="1081" y="373" text-anchor="end" font-size="28" font-weight="700" font-family="Arial,sans-serif" fill="#f6faff">1</text>
+<path d="M567 390H1086" stroke="#2e4d70" stroke-width="1"/><path d="M67 450H1117" stroke="#2b4d72"/>
+<text x="69" y="477" font-family="Arial,sans-serif" fill="#9ab2d0" font-size="16">Counts reflect the public portfolio, not deployments, users or performance.</text>
+<text x="1110" y="477" font-family="Arial,sans-serif" text-anchor="end" fill="#74bbef" font-size="15">DS9 / DATA 01</text>
+</svg>

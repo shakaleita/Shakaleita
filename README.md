@@ -10,8 +10,8 @@
 <br /><br />
 
 <a href="#featured-projects"><strong>Featured work</strong></a> &nbsp;·&nbsp;
-<a href="#portfolio-in-motion"><strong>Animated data</strong></a> &nbsp;·&nbsp;
-<a href="#workflows-in-motion"><strong>Workflow lab</strong></a> &nbsp;·&nbsp;
+<a href="#portfolio-insights"><strong>Portfolio insights</strong></a> &nbsp;·&nbsp;
+<a href="#engineering-workflows"><strong>Engineering workflows</strong></a> &nbsp;·&nbsp;
 <a href="#project-directory"><strong>All projects</strong></a> &nbsp;·&nbsp;
 <a href="#engineering-notes"><strong>Engineering notes</strong></a>
 
@@ -91,9 +91,9 @@ A selection of six working demonstrations spanning collaboration, commerce, sche
 </tr>
 </table>
 
-## Portfolio in motion
+## Portfolio insights
 
-Data visuals that animate as vectors, with a readable static state for environments that don't play the motion. Counts describe the **21 public code repositories**, not traffic or business performance.
+A visual overview of the **21 public code repositories** by project area and primary technology stack. These figures describe the portfolio, not traffic, customer usage or business performance.
 
 <div align="center">
 <img src="assets/motion-project-areas-donut.svg" width="100%" alt="Animated doughnut chart of public projects by area: 12 business systems, 6 content and communication, 2 monitoring and automation, 1 legacy review." />
@@ -105,7 +105,7 @@ Data visuals that animate as vectors, with a readable static state for environme
 
 <sub>Each public project is counted once per chart. Classification is based on the linked repository descriptions. Animated vector graphics use SVG motion rather than embedded JavaScript or a GIF.</sub>
 
-## Workflows in motion
+## Engineering workflows
 
 Three documented systems expressed as animated process diagrams. The movement follows the **normal path through each workflow**; error conditions remain explained in the supporting notes and repositories.
 

@@ -10,8 +10,9 @@
 <br /><br />
 
 <a href="#featured-projects"><strong>Featured projects</strong></a> &nbsp;·&nbsp;
-<a href="#portfolio-overview"><strong>Portfolio overview</strong></a> &nbsp;·&nbsp;
+<a href="#explore-by-workflow"><strong>Project finder</strong></a> &nbsp;·&nbsp;
 <a href="#project-directory"><strong>Project directory</strong></a> &nbsp;·&nbsp;
+<a href="#engineering-notes"><strong>Engineering notes</strong></a> &nbsp;·&nbsp;
 <a href="#architecture--workflows"><strong>Architecture &amp; workflows</strong></a> &nbsp;·&nbsp;
 <a href="#technology"><strong>Technology</strong></a>
 
@@ -90,6 +91,20 @@ A selection of six working demonstrations spanning collaboration, commerce, sche
 </td>
 </tr>
 </table>
+
+## Explore by workflow
+
+Start with a problem rather than a technology. Each route opens a repository that demonstrates the workflow in code.
+
+| Explore | Suggested project | What to examine |
+| :-- | :-- | :-- |
+| **Team coordination** | [TeamForge](https://github.com/shakaleita/teamforge-saas) | Workspace-scoped tasks, comments and board activity |
+| **Sales & customer relationships** | [NexaCRM](https://github.com/shakaleita/nexacrm) | Contacts, deal stages and scheduled follow-ups |
+| **Commerce & stock** | [Mercato](https://github.com/shakaleita/Mercato-E-Commerce-Platform) | Stock validation, checkout and order changes |
+| **Procurement** | [BizFlow ERP](https://github.com/shakaleita/bizflow-erp) | Purchase orders, goods receipt and stock movements |
+| **Support operations** | [SupportDesk](https://github.com/shakaleita/supportdesk-saas) | Ticket triage, assignment and resolution |
+| **Rules & automation** | [AgentHub API](https://github.com/shakaleita/agenthub-api) | Ordered rule evaluation and execution audit |
+| **Monitoring** | [UptimePilot](https://github.com/shakaleita/UptimePilot-API-Monitoring) | HTTP checks, history and reliability reporting |
 
 ## Portfolio overview
 
@@ -303,6 +318,53 @@ flowchart TD
 <sub>Diagrams render natively in GitHub. They summarise key flows rather than every implementation branch or production control.</sub>
 
 ---
+
+## Engineering notes
+
+Beyond the interface, several projects include a reviewer walkthrough, a documented HTTP interface and notes on trade-offs. These links lead to **real files in the public repositories**.
+
+<details>
+<summary><strong>AgentHub API — a rules engine with an audit trail</strong></summary>
+
+**Workflow:** Configure keyword rules → evaluate input in order → return a response → inspect execution history.
+
+The engine is deterministic and does **not** use a generative AI model. That keeps results explainable and makes behaviour reproducible in tests.
+
+**Review:** [Five-minute walkthrough](https://github.com/shakaleita/agenthub-api/blob/main/docs/DEMO.md) · [API reference](https://github.com/shakaleita/agenthub-api/blob/main/docs/API.md) · [Engineering decisions](https://github.com/shakaleita/agenthub-api/blob/main/docs/ENGINEERING.md)
+
+</details>
+
+<details>
+<summary><strong>BizFlow ERP — inventory changes with a clear audit path</strong></summary>
+
+**Workflow:** Supplier → purchase order → line items → goods receipt → stock update.
+
+Goods receipt and stock increments are transactional in the local MVP. The engineering notes also document the missing supplier access policies and stock valuation methods—important boundaries for a system of this type.
+
+**Review:** [Five-minute walkthrough](https://github.com/shakaleita/bizflow-erp/blob/main/docs/DEMO.md) · [API reference](https://github.com/shakaleita/bizflow-erp/blob/main/docs/API.md) · [Engineering decisions](https://github.com/shakaleita/bizflow-erp/blob/main/docs/ENGINEERING.md)
+
+</details>
+
+<details>
+<summary><strong>NexaCRM — a complete contact-to-deal journey</strong></summary>
+
+**Workflow:** Contact → associated company → qualified deal → follow-up → closed stage.
+
+The application includes persisted business records and read-only aggregate insights. Its engineering notes explicitly flag floating-point currency values as a limitation requiring integer minor units or decimal arithmetic in financial-grade software.
+
+**Review:** [Five-minute walkthrough](https://github.com/shakaleita/nexacrm/blob/main/docs/DEMO.md) · [API reference](https://github.com/shakaleita/nexacrm/blob/main/docs/API.md) · [Engineering decisions](https://github.com/shakaleita/nexacrm/blob/main/docs/ENGINEERING.md)
+
+</details>
+
+### Additional technical walkthroughs
+
+| Project | Traceable workflow | Open the walkthrough |
+| :-- | :-- | :-- |
+| **SupportDesk** | Intake → triage → assignment → notes → resolution | [Review the demo](https://github.com/shakaleita/supportdesk-saas/blob/main/docs/DEMO.md) |
+| **InvoicePilot** | Customer → draft invoice → tax → payment state → report | [Review the demo](https://github.com/shakaleita/invoicepilot/blob/main/docs/DEMO.md) |
+| **HelpBot Widget** | FAQ administration, search and embedded help | [Review the demo](https://github.com/shakaleita/helpbot-widget/blob/main/docs/DEMO.md) |
+
+<sub>These are locally reproducible portfolio demonstrations. Documentation, automated checks and example workflows are evidence of implementation scope—not independent security, accessibility or production certification.</sub>
 
 ## Technology
 

@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="440" viewBox="0 0 1024 440" role="img" aria-label="Technology patterns">
 <title>Technology patterns</title>
-<desc>React + FastAPI: 10 repositories; Node.js + Express: 4 repositories; Python / Flask or FastAPI: 4 repositories; PHP + Laravel: 2 repositories; Legacy integration: 1 repositories.</desc>
+<desc>React + FastAPI: 10 repositories; Node.js + Express: 4 repositories; Python-first API demos: 4 repositories; PHP + Laravel: 2 repositories; Legacy integration: 1 repositories.</desc>
 <rect x="2" y="2" width="1020" height="436" rx="26" fill="#f9fbff" stroke="#dee7f4" stroke-width="3"/>
 <rect x="36" y="36" width="7" height="47" rx="3" fill="#2f78c6"/>
 <text x="64" y="63" fill="#102647" font-family="Arial,sans-serif" font-size="31" font-weight="700">Technology patterns</text>
-<text x="64" y="96" fill="#5e718b" font-family="Arial,sans-serif" font-size="18">Main application stack documented for each repository</text>
+<text x="64" y="96" fill="#5e718b" font-family="Arial,sans-serif" font-size="18">Main technology pattern · one group per repository</text>
 <text x="64" y="157" fill="#1d3556" font-family="Arial,sans-serif" font-size="20" font-weight="600">React + FastAPI</text>
 <rect x="365" y="138" width="550" height="26" rx="13" fill="#e4ebf5"/>
 <rect x="365" y="138" width="550" height="26" rx="13" fill="#215ca9"/>

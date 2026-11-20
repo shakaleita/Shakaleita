@@ -9,12 +9,12 @@
 
 <br /><br />
 
-<a href="#featured-projects"><strong>Featured projects</strong></a> &nbsp;·&nbsp;
-<a href="#explore-by-workflow"><strong>Project finder</strong></a> &nbsp;·&nbsp;
-<a href="#project-directory"><strong>Project directory</strong></a> &nbsp;·&nbsp;
-<a href="#engineering-notes"><strong>Engineering notes</strong></a> &nbsp;·&nbsp;
-<a href="#architecture--workflows"><strong>Architecture &amp; workflows</strong></a> &nbsp;·&nbsp;
-<a href="#technology"><strong>Technology</strong></a>
+<a href="#featured-projects"><strong>Projects</strong></a> &nbsp;·&nbsp;
+<a href="#systems-atlas"><strong>Systems atlas</strong></a> &nbsp;·&nbsp;
+<a href="#review-mode"><strong>Review mode</strong></a> &nbsp;·&nbsp;
+<a href="#portfolio-overview"><strong>Charts</strong></a> &nbsp;·&nbsp;
+<a href="#architecture--workflows"><strong>Workflows</strong></a> &nbsp;·&nbsp;
+<a href="docs/ENGINEERING-ATLAS.md"><strong>Technical field guide</strong></a>
 
 </div>
 
@@ -92,6 +92,22 @@ A selection of six working demonstrations spanning collaboration, commerce, sche
 </tr>
 </table>
 
+## Systems atlas
+
+A visual index of the 21 public code projects, organised by the problems they address rather than by programming language or framework.
+
+<div align="center">
+<img src="assets/systems-atlas.svg" width="100%" alt="DS9 Systems Atlas mapping 12 business systems, five content and communication projects, three insight and automation projects, and one legacy engineering review" />
+
+<br />
+
+<strong>From operational workflows to content, analytics and automation.</strong>
+
+<a href="docs/ENGINEERING-ATLAS.md"><strong>Open the Engineering Atlas</strong></a> &nbsp;·&nbsp; <a href="#project-directory">Explore every repository</a>
+</div>
+
+<sub>The map is a curated index of public work, not a live infrastructure diagram or a production deployment map. Individual project links appear in the cards and the project directory.</sub>
+
 ## Explore by workflow
 
 Start with a problem rather than a technology. Each route opens a repository that demonstrates the workflow in code.
@@ -105,6 +121,31 @@ Start with a problem rather than a technology. Each route opens a repository tha
 | **Support operations** | [SupportDesk](https://github.com/shakaleita/supportdesk-saas) | Ticket triage, assignment and resolution |
 | **Rules & automation** | [AgentHub API](https://github.com/shakaleita/agenthub-api) | Ordered rule evaluation and execution audit |
 | **Monitoring** | [UptimePilot](https://github.com/shakaleita/UptimePilot-API-Monitoring) | HTTP checks, history and reliability reporting |
+
+## Review mode
+
+Choose how deeply to explore the work. These routes lead to source code and documentation, not marketing pages.
+
+<details>
+<summary><strong>01 / The overview — start with the systems map</strong></summary>
+
+The [Systems Atlas](#systems-atlas) groups the public work into operational software, content and communication, analytics and automation, and a legacy case study. The [portfolio charts](#portfolio-overview) give a count-based view of the same public repositories.
+
+</details>
+
+<details>
+<summary><strong>02 / The working demo — follow a complete workflow</strong></summary>
+
+Start with [AgentHub's reviewer walkthrough](https://github.com/shakaleita/agenthub-api/blob/main/docs/DEMO.md), [BizFlow ERP](https://github.com/shakaleita/bizflow-erp/blob/main/docs/DEMO.md), or [NexaCRM](https://github.com/shakaleita/nexacrm/blob/main/docs/DEMO.md). Each document describes a locally reproducible workflow, the stored business state and the relevant test path.
+
+</details>
+
+<details>
+<summary><strong>03 / The engineering review — examine decisions and limitations</strong></summary>
+
+Read the [Engineering Atlas](docs/ENGINEERING-ATLAS.md) for a curated set of design challenges and links to real implementation notes. For a focused example, inspect [AgentHub's architecture decisions](https://github.com/shakaleita/agenthub-api/blob/main/docs/ENGINEERING.md) or [BizFlow's documented trade-offs](https://github.com/shakaleita/bizflow-erp/blob/main/docs/ENGINEERING.md). The limits of each MVP are part of the technical story.
+
+</details>
 
 ## Portfolio overview
 
@@ -366,6 +407,22 @@ The application includes persisted business records and read-only aggregate insi
 
 <sub>These are locally reproducible portfolio demonstrations. Documentation, automated checks and example workflows are evidence of implementation scope—not independent security, accessibility or production certification.</sub>
 
+## Evidence in the code
+
+Features matter more when the important engineering decisions are visible. These are concrete aspects documented in public repositories.
+
+| Engineering theme | Evidence to explore | Repo |
+| :-- | :-- | :-- |
+| **State consistency** | Stock-safe, idempotent checkout; order cancellation and stock restoration | [Mercato](https://github.com/shakaleita/Mercato-E-Commerce-Platform) |
+| **Conflict handling** | Availability lookup, conflict-safe appointment rescheduling and event history | [ClinicFlow](https://github.com/shakaleita/ClinicFlow-Medical-Booking-System) |
+| **Auditability** | Workspace-specific task activity, comments and status changes | [TeamForge](https://github.com/shakaleita/teamforge-saas) |
+| **Defensive input handling** | Monitor host allowlisting, URL validation and reliability reports | [UptimePilot](https://github.com/shakaleita/UptimePilot-API-Monitoring) |
+| **Revision integrity** | Full-text document search and revision snapshots | [KnowBase](https://github.com/shakaleita/KnowBase-Document-Search) |
+| **Explainable automation** | Deterministic rules, fallback responses and execution audit history | [AgentHub API](https://github.com/shakaleita/agenthub-api) |
+| **Real-time communication** | Session-checked, origin-checked WebSocket messaging | [PulseChat](https://github.com/shakaleita/PulseChat-Real-Time-Messaging) |
+
+<sub>See each repository for its exact scope, setup instructions and limitations. This table does not imply production hardening or comprehensive security validation.</sub>
+
 ## Technology
 
 <table>
@@ -389,7 +446,7 @@ The application includes persisted business records and read-only aggregate insi
 
 <div align="center">
 
-<a href="https://github.com/shakaleita?tab=repositories"><strong>Browse all public repositories</strong></a> &nbsp;·&nbsp; <a href="#featured-projects">Return to featured projects</a>
+<a href="https://github.com/shakaleita?tab=repositories"><strong>Browse all public repositories</strong></a> &nbsp;·&nbsp; <a href="docs/ENGINEERING-ATLAS.md"><strong>Engineering Atlas</strong></a> &nbsp;·&nbsp; <a href="#featured-projects">Back to featured projects</a>
 
 <br/><br/>
 
